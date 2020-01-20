@@ -1,0 +1,32 @@
+{
+  "name": "az-expense-report",
+  "version": "1.0.0",
+  "description": "Azure function which reports costs for a list of Azure subscriptions to Microsoft Teams/Slack channel",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "scripts": {
+    "start": "nodejs localrunner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajeetharan/az-expense-report"
+  },
+  "keywords": [
+    "azure",
+    "cost",
+    "consumption",
+    "report",
+    "billing"
+  ],
+  "author": "Sajeetharan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/todo/issues"
+  },
+  "dependencies": {
+    "adal-node": "^0.1.28",
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {}
+}
